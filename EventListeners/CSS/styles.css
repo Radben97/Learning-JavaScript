@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    min-height: 100vh;
+}
+
+
+
+header {
+    background-color: rgb(219, 0, 0);
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+.view1 {
+    font-size: 2rem;
+}
+
+.view2 {
+    height:40vh;
+    width: 40vw;
+    
+}
+
+
+.view3 {
+    height:20vh;
+    width:20vw;
+    background-color: black;
+}
+
+.purple {
+    background-color: blueviolet;
+}
+
+.darkBlue {
+    background-color: darkblue;
+}
+
+.height100 {
+    height:100px;
+}
